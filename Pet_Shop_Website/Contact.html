@@ -4,30 +4,33 @@
     <meta charset="utf-8" />
     <title>Contact us!</title>
     <meta name="description" content="Get in Touch with us" />
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
     <!--NAVBAR-->
-    <nav>
-        <ul>
-            <li><a href="Index.html">HOME</a></li>
-            <li><a href="Contact.html">CONTACT</a></li>
-        </ul>
+    <nav class="nav-bar">
+        <div>
+            <ul>
+                <li><a href="Index.html">HOME</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+        </div>
     </nav>
     <!--HEADER-->
     <header>
         <div>
-            <h1>Contact Us!</h1>
+            <h1 class="animate-text">Contact Us!</h1>
         </div>
     </header>
     <!--FORM-->
     <section>
         <div>
-            <h3>Please provide your contact information and a brief message of your inquiry.</h3>
+            <h3 id="contact-h3">Please provide your contact information and a brief message of your inquiry.</h3>
             <div>
                 <form>
                     <input type="text" placeholder="First Name">
                     <input type="text" placeholder="Last Name"><br>
-                    <input type="email" placeholder="Email"><br>
+                    <input type="email" placeholder="Email">
                     <input type="tel" placeholder="Phone Number"><br>
                     <input type="checkbox" id="Newsletter">
                     <label for="Newsletter">Would you like to receive our monthly newsletter?</label><br>
